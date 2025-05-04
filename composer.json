@@ -1,0 +1,13 @@
+{
+    "name": "adim/send-email",
+    "description": "Dự án gửi email bằng PHP qua Gmail sử dụng PHPMailer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adim\\SendEmail\\": "src/"
+        }
+    }
+}
